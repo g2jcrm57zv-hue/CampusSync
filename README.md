@@ -1,6 +1,6 @@
 # CampusSync IT Helpdesk
 
-> 本项目为作者在国际学校 IT 部门实习/外包期间独立开发的内部系统原型，用于展示校园 IT 工单管理与 SharePoint 集成能力。
+> 本项目为作者在国际学校 IT 部门工作期间独立开发的内部系统DEMO，用于展示校园 IT 工单管理与 SharePoint 集成能力。
 
 **CampusSync** (SharePoint-integrated Academic Services Campus Sync) 是一款面向校园 IT 部门的轻量级工单服务。它基于 **Microsoft Graph API** 与校内 **SharePoint Online** 深度集成（List 存储工单、Document Library 归档报表），同时内置 **Mock Mode**，方便在无 Azure 凭证的环境下本地开发与演示。
 
