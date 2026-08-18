@@ -1,6 +1,6 @@
 """
 main.py
-FastAPI application for SAS-CampusSync IT Helpdesk.
+FastAPI application for CampusSync IT Helpdesk.
 Provides REST APIs for ticket lifecycle and report export to SharePoint.
 """
 
@@ -77,13 +77,13 @@ class ExportRequest(BaseModel):
 async def lifespan(app: FastAPI):
     force_mock = os.getenv("MOCK_MODE", "false").lower() in ("true", "1", "yes")
     app.state.sp_client = SharePointClient(force_mock=force_mock)
-    logger.info("SAS-CampusSync service started. Mock mode: %s", force_mock)
+    logger.info("CampusSync service started. Mock mode: %s", force_mock)
     yield
-    logger.info("SAS-CampusSync service shutting down.")
+    logger.info("CampusSync service shutting down.")
 
 
 app = FastAPI(
-    title="SAS-CampusSync IT Helpdesk",
+    title="CampusSync IT Helpdesk",
     description="Lightweight SharePoint-integrated campus IT helpdesk service.",
     version="1.0.0",
     lifespan=lifespan,
@@ -278,7 +278,7 @@ async def dashboard():
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SAS-CampusSync Dashboard</title>
+  <title>CampusSync Dashboard</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @keyframes fadeIn { from { opacity:0; transform: translateY(6px); } to { opacity:1; transform: translateY(0); } }
@@ -293,7 +293,7 @@ async def dashboard():
   <header class="bg-white border-b border-gray-200 sticky top-0 z-30">
     <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
       <div class="flex items-center gap-3">
-        <div class="w-9 h-9 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm">SAS</div>
+        <div class="w-9 h-9 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-lg flex items-center justify-center text-white font-bold text-sm shadow-sm">IT</div>
         <div>
           <h1 class="text-base font-semibold text-gray-900 leading-tight">CampusSync IT Helpdesk</h1>
           <p class="text-[11px] text-gray-500">SharePoint Integrated Ticketing</p>

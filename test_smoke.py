@@ -1,5 +1,5 @@
 """
-Quick smoke tests for SAS-CampusSync.
+Quick smoke tests for CampusSync.
 Run with: pytest test_smoke.py -v
 """
 

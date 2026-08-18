@@ -1,9 +1,8 @@
-# SAS-CampusSync IT Helpdesk
+# CampusSync IT Helpdesk
 
-> **SAS** = **Shanghai American School**（上海美国学校）  
-> 本项目为作者在 SAS 校内 IT 部门实习/外包期间独立开发的内部系统原型，用于展示校园 IT 工单管理与 SharePoint 集成能力。
+> 本项目为作者在国际学校 IT 部门实习/外包期间独立开发的内部系统原型，用于展示校园 IT 工单管理与 SharePoint 集成能力。
 
-**SAS-CampusSync** (SharePoint-integrated Academic Services Campus Sync) 是一款面向校园 IT 部门的轻量级工单服务。它基于 **Microsoft Graph API** 与校内 **SharePoint Online** 深度集成（List 存储工单、Document Library 归档报表），同时内置 **Mock Mode**，方便在无 Azure 凭证的环境下本地开发与演示。
+**CampusSync** (SharePoint-integrated Academic Services Campus Sync) 是一款面向校园 IT 部门的轻量级工单服务。它基于 **Microsoft Graph API** 与校内 **SharePoint Online** 深度集成（List 存储工单、Document Library 归档报表），同时内置 **Mock Mode**，方便在无 Azure 凭证的环境下本地开发与演示。
 
 ---
 
@@ -79,7 +78,7 @@
 ### 1. 克隆并进入项目目录
 
 ```bash
-cd SAS-CampusSync
+cd CampusSync
 ```
 
 ### 2. 创建虚拟环境（推荐）
@@ -185,7 +184,7 @@ curl -X POST "http://localhost:8001/reports/export" \
 
 1. 登录 [Azure Portal](https://portal.azure.com/).
 2. 导航至 **Microsoft Entra ID** > **App registrations** > **New registration**.
-3. 填写应用名称（如 `SAS-CampusSync`），选择 **Accounts in this organizational directory only**。
+3. 填写应用名称（如 `CampusSync`），选择 **Accounts in this organizational directory only**。
 4. 点击 **Register**。
 
 ### 步骤 2：记录凭证
