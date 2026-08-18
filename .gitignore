@@ -134,3 +134,17 @@ data/
 # OS
 .DS_Store
 Thumbs.db
+
+# SharePoint / Office temp files
+~$*
+.~lock.*
+*.tmp
+
+# Logs
+*.log
+logs/
+
+# Output / downloads
+output/
+downloads/
+sharepoint_downloads/
