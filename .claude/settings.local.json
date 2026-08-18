@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -m py_compile main.py sharepoint_client.py mock_sharepoint.py)",
+      "Bash(python *)",
+      "Bash(pytest *)",
+      "Bash(gh auth *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}

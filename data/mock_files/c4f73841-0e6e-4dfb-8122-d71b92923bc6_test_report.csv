@@ -1,0 +1,13 @@
+﻿id,title,description,category,reporter_email,status,priority,assigned_to,sharepoint_item_id,created_at,updated_at
+ba27b33c-333f-4d10-8614-2c59b5f0ab3f,Export test ticket,For export test,general,test@campus.edu,open,medium,,,2026-08-15T12:02:43.962053Z,2026-08-15T12:02:43.962053Z
+8cfeecb3-b9bf-4258-ab92-f0f908fb9f32,Update test ticket,For update test,network,test@campus.edu,resolved,low,tech@campus.edu,,2026-08-15T12:02:43.942728Z,2026-08-15T12:02:43.946728Z
+0a7b7503-d5da-4f54-a702-e973c3e60785,Get test ticket,For get test,software,test@campus.edu,open,medium,,,2026-08-15T12:02:43.934218Z,2026-08-15T12:02:43.934218Z
+a3a7fcae-c103-431f-b4fd-ef6e01ea7a93,Test projector issue,No HDMI signal,hardware,student@campus.edu,open,high,,,2026-08-15T12:02:43.924195Z,2026-08-15T12:02:43.924195Z
+139cf4cc-f43f-40b5-8b4a-f879c9912465,Export test ticket,For export test,general,test@campus.edu,open,medium,,,2026-08-15T10:49:39.948871Z,2026-08-15T10:49:39.948871Z
+2a09cef0-fd5a-48f3-968f-45fec6f94933,Update test ticket,For update test,network,test@campus.edu,resolved,low,tech@campus.edu,,2026-08-15T10:49:39.926300Z,2026-08-15T10:49:39.932499Z
+bcfda03e-bc27-46b9-839d-2d75b19a7a38,Get test ticket,For get test,software,test@campus.edu,open,medium,,,2026-08-15T10:49:39.918295Z,2026-08-15T10:49:39.918295Z
+9e92705a-a8a2-42c6-85b3-8d267824ac62,Test projector issue,No HDMI signal,hardware,student@campus.edu,open,high,,,2026-08-15T10:49:39.900797Z,2026-08-15T10:49:39.900797Z
+6b7e04ac-8f40-40fb-9a2d-afdbda0ef39b,Export test ticket,For export test,general,test@campus.edu,open,medium,,,2026-08-15T10:47:13.890435Z,2026-08-15T10:47:13.890435Z
+f3a63bfe-d548-47f9-895c-1f2d44144d57,Update test ticket,For update test,network,test@campus.edu,resolved,low,tech@campus.edu,,2026-08-15T10:47:13.870312Z,2026-08-15T10:47:13.873899Z
+671a564e-6828-4244-8b37-fae2742daefa,Get test ticket,For get test,software,test@campus.edu,open,medium,,,2026-08-15T10:47:13.861312Z,2026-08-15T10:47:13.861312Z
+c697baee-2dae-4f60-b36d-b62fc6aad145,Test projector issue,No HDMI signal,hardware,student@campus.edu,open,high,,,2026-08-15T10:47:13.851007Z,2026-08-15T10:47:13.851007Z
